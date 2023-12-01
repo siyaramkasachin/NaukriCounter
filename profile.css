@@ -1,0 +1,226 @@
+/*font-family: 'Inter', sans-serif;*/
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+
+/*header designing*/
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+#header-top-line{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+#header-top-line p{
+    text-decoration: none;
+    color: white;
+}
+
+#header-top-line a{
+    text-decoration: none;
+    color: darkcyan;
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+/*header middle main*/
+
+#header-middle-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+/*headign section*/
+
+.heading-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+}
+
+#header-middle-main img {
+    height: 90px;
+}
+
+#header-btn-section{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 25px;
+}
+
+.header-btn{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+    align-content: center;
+    text-align: center;
+}
+
+.header-btn img{
+    width: 60px;
+    height: 60px!important;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 33px;
+    border: 2px solid black;
+}
+
+#header-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+#header-bottom a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/*latest update ka section*/
+
+#latest-updates-main-head-sec{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 20px;
+    align-self: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    padding-block: 25px;
+}
+
+.latest-update-box{
+    width: 20%;
+    height: auto;
+    padding: 15px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.latest-update-box:hover{
+    width: 20%;
+    height: auto;
+    padding: 15px;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.latest-update-box a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/*data section*/
+
+#data-section{
+    width: 90%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+.section-of-data{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+
+}
+
+.heading-of-section-of-data{
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: rgb(167, 0, 0);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.heading-of-section-of-data h1{
+    color: white;
+}
+
+.heading-of-section-of-data a{
+    color: white;
+}
+
+.update-noti{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 7px;
+}
+
+
+.update-noti p{
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+}
