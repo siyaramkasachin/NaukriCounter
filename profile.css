@@ -74,14 +74,21 @@ header{
     display: none;
 }
 
+
+
 /*headign section*/
 
 .heading-section{
     display: flex;
     flex-direction: column;
+    justify-content: center!important;
+    align-content: center;
+}
+
+#heading-no-re{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
-    gap: 8px;
 }
 
 #header-middle-main img {
@@ -292,6 +299,13 @@ header{
         flex-direction: row;
         justify-content: flex-start;
         gap: 25px;
+        align-self: center;margin-inline: auto;
+    }
+
+    #heading-no-re{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .hide-res-900{
@@ -380,6 +394,6 @@ header{
         padding: 1px;
     }
     #header-top-line p{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 }
