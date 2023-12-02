@@ -18,6 +18,10 @@ h2{
     font-size: 1rem;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 /*header designing*/
 
@@ -64,6 +68,10 @@ header{
     align-content: center;
     padding: 20px;
     gap: 20px;
+}
+
+#logo-section-res{
+    display: none;
 }
 
 /*headign section*/
@@ -223,4 +231,155 @@ header{
     font-size: 0.8rem;
     display: flex;
     flex-direction: row;
+}
+
+
+
+/*Media quries*/
+
+@media screen and (max-width: 1000px){
+    #latest-updates-main-head-sec{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: flex-start;
+        gap: 20px;
+        align-self: center;
+        justify-self: center;
+        flex-wrap: wrap;
+        padding-block: 25px;
+    }
+
+    .latest-update-box a{
+        text-decoration: none;
+        color: black;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .latest-update-box{
+        width: 20%;
+        height: auto;
+        padding: 7px;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    #header-middle-main{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 20px;
+    }
+    
+
+    #logo-section-res{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 25px;
+    }
+
+    .hide-res-900{
+        display: none;
+    }
+
+    #header-btn-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    #data-section{
+        width: 95%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-inline: auto;
+        margin-top: 30px;
+        align-content: center;
+    
+    }
+
+    .section-of-data{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 15px;
+        margin-bottom: 50px;
+    }
+
+    .latest-update-box{
+        width: 45%;
+        height: auto;
+        padding: 15px;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        border-radius: 15px;
+        text-decoration: none;
+    }
+    
+    .latest-update-box:hover{
+        width: 45%;
+        height: auto;
+        padding: 15px;
+        background-color: darkcyan;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        border-radius: 15px;
+        text-decoration: none;
+    }
+}
+
+
+@media screen and (max-width: 433px){
+    #header-middle-main img {
+        height: 50px;
+    }
+
+    .heading-section h1{
+        font-size: 1.2rem;
+    }
+
+    .heading-section h2{
+        font-size: 0.7rem;
+    }
+
+    #header-top-line a{
+        text-align: center;
+        justify-content: center;
+        font-size: 0.7rem;
+        padding: 1px;
+    }
+    #header-top-line p{
+        font-size: 0.7rem;
+    }
 }
