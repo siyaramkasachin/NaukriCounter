@@ -429,6 +429,7 @@ header{
     margin-inline: auto;
     margin-top: 50px;
     gap: 25px;
+    padding-bottom: 70px;
 }
 
 .heading-job-container{
@@ -522,3 +523,23 @@ th{
     text-decoration: underline;
 }
 
+
+.list-of-something-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 20px;
+}
+
+.list-of-something-container h1{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+ul li{
+    font-size: 1rem;
+    padding-block: 5px;
+}
